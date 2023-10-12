@@ -1,0 +1,87 @@
+:root{
+    --border-color:rgb(8, 74, 136);
+    --background-color:rgb(98, 139, 177);
+   --font-color:white;
+}
+
+*{
+    padding: 0;
+    margin:0 ;
+overflow:hidden;
+
+}
+
+.container
+{
+position: absolute;
+
+border: 2px solid var(--border-color);
+width: 50%;
+height: 50%;
+display: flex;
+margin: 10% 15% 10% 20%;
+}
+.head
+{
+    position: relative;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+left:280px;
+
+}
+.head h2{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content
+{
+    position: relative;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+  top: 100px;
+}
+.col
+{ display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-top:20px;
+    
+    
+}
+.left p{
+    font-size: 20px;
+}
+.right
+{
+    position: relative;
+    margin-left: 50px;
+    align-items: center;
+ 
+
+
+}
+.right input
+{
+    border: 2px solid  var(--border-color);
+    outline: 0;
+    padding: 8px;
+    width: 100px;
+}
+.calc
+{
+position: relative;
+margin-top: 30px;
+margin-left: 90px;
+}
+.calc button
+{ 
+    padding: 20px;
+    cursor: pointer;
+    background-color: var(--background-color);
+
+border-radius: 20px;
+color: var(--font-color);
+font-weight: bolder;
+}
