@@ -14,7 +14,7 @@ overflow:hidden;
 .container
 {
 position: absolute;
-
+text-align: center;
 border: 2px solid var(--border-color);
 width: 50%;
 height: 50%;
@@ -79,11 +79,11 @@ left:280px;
 {
 position: relative;
 margin-top: 30px;
-margin-left: 90px;
+margin-right: 140px;
 }
 .calc button
 { 
-    padding: 20px;
+    padding: 15px;
     cursor: pointer;
     background-color: var(--background-color);
 
